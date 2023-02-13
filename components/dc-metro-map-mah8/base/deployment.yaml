@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-mah8
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:mkovarik-tenant-dc-metro-map-mah8
+      - image: quay.io/redhat-appstudio/user-workload@sha256:0c83130cba3097bc8ed8950821f767829d5ba49629b6039cb59edd7f1035521b
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
